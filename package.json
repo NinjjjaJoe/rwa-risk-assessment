@@ -1,0 +1,33 @@
+{
+  "name": "rwa-risk-assessment",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-Powered RWA Risk Assessment Platform",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "keywords": [
+    "blockchain",
+    "AI",
+    "risk-assessment",
+    "RWA"
+  ],
+  "author": "King F50",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
